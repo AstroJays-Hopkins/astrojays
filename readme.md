@@ -8,3 +8,14 @@ This repo contains the files for the avionics subsystem of the Astrojays Rocket.
 * [Adafruit 9-DOF BNO055 IMU](https://www.adafruit.com/product/2472)
 ## Installation:
 Simply download the zip and/or ```git clone``` and open the `.ino` file in the Arduino IDE.
+
+
+## Pinouts
+Pin|Sensor|Function|Analog/Digital
+---|---|---|---
+A1 | ADXL377 | x-acceleration|Analog
+A2 | ADXL377 | y-acceleration|Analog
+A3 | ADXL377 | z-acceleration|Analog
+A4 | All but ADXL377 | SDA | Digital
+A5 | All but ADXL377 | SCL | Digital
+1 | - | To recovery system | Digital
